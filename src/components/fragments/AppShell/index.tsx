@@ -2,7 +2,7 @@ import { Lato } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";
 // import Navbar from "../NavBar";
-// import Footer from "../Footer";
+import Footer from "../Footer";
 // import { useRouter } from "next/router";
 
 const poppins = Lato({
@@ -30,7 +30,7 @@ const AppShell = (props: Proptype) => {
       <div className={poppins.className}>
         {/* {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />} */}
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
