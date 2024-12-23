@@ -28,7 +28,7 @@ const AppShell = (props: Proptype) => {
         />
       </Head> */}
       <div className={poppins.className}>
-        {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />}
+        {/* {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />} */}
         {children}
         <Footer />
       </div>
