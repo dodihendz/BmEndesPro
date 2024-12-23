@@ -1,7 +1,7 @@
 import { Lato } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";
-// import Navbar from "../NavBar";
+import Navbar from "../NavBar";
 import Footer from "../Footer";
 // import { useRouter } from "next/router";
 
@@ -18,7 +18,7 @@ type Proptype = {
 
 const AppShell = (props: Proptype) => {
   const { children } = props;
-  // const { pathname } = useRouter();
+  const { pathname } = useRouter();
   return (
     <>
       {/* <Head>
@@ -28,7 +28,7 @@ const AppShell = (props: Proptype) => {
         />
       </Head> */}
       <div className={poppins.className}>
-        {/* {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />} */}
+        {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />}
         {children}
         <Footer />
       </div>
