@@ -54,6 +54,7 @@ export default function Home() {
               width: "100%",
               height: "auto",
             }}
+            layout="responsive"
           />
         </div>
       </div>
