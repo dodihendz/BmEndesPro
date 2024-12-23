@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="h-auto flex justify-center">
           <Image
-            src={`${process.env.NEXT_PUBLIC_URL_PUB}/otherbg.jpg`}
+            src={`/otherbg.jpg`}
             alt="Promotional Image"
             width={700}
             height={300}
@@ -146,7 +146,7 @@ export default function Home() {
       <div className="image-alone">
         <div className="h-auto flex justify-center p-20">
           <Image
-            src={`${process.env.NEXT_PUBLIC_URL_PUB}/otherbg.jpg`}
+            src={`/otherbg.jpg`}
             alt="Promotional Image"
             // layout="responsive"
             width={1000}
