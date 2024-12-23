@@ -21,12 +21,12 @@ const AppShell = (props: Proptype) => {
   // const { pathname } = useRouter();
   return (
     <>
-      <Head>
+      {/* <Head>
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"
         />
-      </Head>
+      </Head> */}
       <div className={poppins.className}>
         {/* {!disableNavbar.includes(pathname.split("/")[1]) && <Navbar />} */}
         {children}
