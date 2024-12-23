@@ -24,7 +24,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Home() {
   // const { data } = useSession();
