@@ -24,11 +24,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Image from "next/legacy/image";
-
+import Image from "next/image";
+// console.log(process.env.NEXT_PUBLIC_URL);
 export default function Home() {
-  // const { data } = useSession();
-  // console.log(data);
   return (
     <main className={"pt-20"}>
       <div className="w-full flex justify-center items-center">
@@ -46,12 +44,16 @@ export default function Home() {
         </div>
         <div className="h-auto flex justify-center">
           <Image
-            src="/otherbg.jpg"
+            src={`${process.env.NEXT_PUBLIC_URL_PUB}otherbg.jpg`}
             alt="Promotional Image"
-            layout="responsive"
             width={700}
             height={300}
             className="rounded-s-xl"
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
           />
         </div>
       </div>
@@ -144,12 +146,16 @@ export default function Home() {
       <div className="image-alone">
         <div className="h-auto flex justify-center p-20">
           <Image
-            src="/otherbg.jpg"
+            src={`${process.env.NEXT_PUBLIC_URL_PUB}otherbg.jpg`}
             alt="Promotional Image"
             // layout="responsive"
             width={1000}
             height={1000}
             className="h-[486px] w-[1164px]"
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
           />
         </div>
       </div>
