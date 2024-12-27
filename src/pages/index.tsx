@@ -25,12 +25,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Image from "next/image";
-// console.log(process.env.NEXT_PUBLIC_URL);
 export default function Home() {
   return (
-    <main className={"pt-20"}>
-      <div className="w-full flex justify-center items-center">
-        <div className="px-[6rem]">
+    <main className="pt-20  ">
+      <div className="w-full flex justify-center items-center gap-20">
+        <div className="">
           <h1 className="text-[1.5rem] text-center font-semibold">
             Find The Best Restaurants For your Day
           </h1>
@@ -42,19 +41,19 @@ export default function Home() {
             advantage
           </p>
         </div>
-        <div className="h-auto flex justify-center">
+        <div className="">
           <Image
             src={`/otherbg.jpg`}
             alt="Promotional Image"
             width={700}
             height={300}
-            className="rounded-s-xl"
+            className="rounded-s-xl  w-[51vw] h-auto "
             // sizes="100vw"
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
-            layout="responsive"
+            // style={{
+            //   width: "100%",
+            //   height: "auto",
+            // }}
+            // layout="responsive"
           />
         </div>
       </div>
