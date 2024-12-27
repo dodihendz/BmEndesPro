@@ -50,10 +50,10 @@ export default function Home() {
             height={300}
             className="rounded-s-xl"
             sizes="100vw"
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
+            // style={{
+            //   width: "100%",
+            //   height: "auto",
+            // }}
             layout="responsive"
           />
         </div>
