@@ -47,7 +47,7 @@ export default function Home() {
             alt="Promotional Image"
             width={700}
             height={300}
-            className="rounded-s-xl  w-[51vw] h-auto "
+            className="rounded-s-xl w-[51vw] h-auto "
             // sizes="100vw"
             // style={{
             //   width: "100%",
@@ -144,18 +144,18 @@ export default function Home() {
         <hr className="bg-slate-300 w-full h-[2px] " />
       </div> */}
       <div className="image-alone">
-        <div className="h-auto flex justify-center p-20">
+        <div className="h-auto flex justify-center p-14">
           <Image
             src={`/otherbg.jpg`}
             alt="Promotional Image"
             // layout="responsive"
             width={1000}
             height={1000}
-            className="h-[486px] w-[1164px]"
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
+            className="h-[70vh] w-[74vw]"
+            // style={{
+            //   maxWidth: "100%",
+            //   height: "auto",
+            // }}
           />
         </div>
       </div>
