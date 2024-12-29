@@ -1,0 +1,10 @@
+.nospin {
+  -webkit-appearance: none; /* For Chrome and Safari */
+  -moz-appearance: textfield; /* For Firefox */
+  appearance: none; /* For other browsers */
+}
+
+.nospin::-webkit-inner-spin-button,
+.nospin::-webkit-outer-spin-button {
+  display: none; /* Hide the spinner buttons */
+}
